@@ -2,16 +2,16 @@
 
 case $1 in
     amd64)
-        ARCH="64"
-        FNAME="amd64"
+        ARCH="arm64-v8a"
+        FNAME="arm64"
         ;;
     arm64)
         ARCH="arm64-v8a"
         FNAME="arm64"
         ;;
     *)
-        ARCH="64"
-        FNAME="amd64"
+        ARCH="arm64-v8a"
+        FNAME="arm64"
         ;;
 esac
 
